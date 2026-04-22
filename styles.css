@@ -1,0 +1,95 @@
+* { 
+    border: 0;
+    margin: 0;
+    font-family: system-ui;
+    border-radius: 12px;
+    background-color: rgb(255, 237, 248);
+
+    
+}
+
+dl{
+    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+a {
+    color: rgb(48, 58, 63);
+    font-size: 1vw;
+    text-decoration: none;
+    transition: 0.2s;
+
+}
+a:hover{
+  
+  color: rgb(71, 187, 255);
+}
+h1{
+    font-size: 4vw;
+}
+
+
+
+
+DL DL DL DL > DT > H3 {
+  font-size: 3vw;
+  
+  color:  #a32e74;
+}
+DL DL DL DL DL  > DT > H3 {
+  font-size: 2vw;
+  color: #7c5f89;
+}
+DL DL DL DL DL DL  > DT > H3 {
+  font-size: 1.5vw;
+  color: #1e756e;
+}
+DL DL DL DL DL DL DL > DT > H3 {
+  font-size: 1vw;
+  color:  #20b382;
+
+}
+DL DL DL DL DL DL DL DL > DT > H3 {
+   font-size: 0.9vw;
+  color:  #0bdd8d;
+}
+
+DL DL DL DL DL  > DT  {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.oui{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+DL DL DL DL DL    {
+    
+    width: 30vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  border: 3px solid  #a32e74;
+}
+DL DL DL DL DL DL   {
+    width: 28vw;
+  border: 3px  solid #7c5f89;
+}
+DL DL DL DL DL DL DL  {
+    width: 26vw;
+  border: 3px  solid #1e756e;
+}
+DL DL DL DL DL DL DL DL  {
+    width: 24vw;
+  border: 3px  solid  #20b382;
+}
+DL DL DL DL DL DL DL DL DL  {
+    width: 22vw;
+  border: 3px  solid  #0bdd8d;
+}
