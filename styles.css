@@ -2,7 +2,7 @@
     border: 0;
     margin: 0;
     font-family: system-ui;
-    border-radius: 12px;
+    
     background-color: rgb(255, 237, 248);
 
     
@@ -10,15 +10,18 @@
 
 dl{
     
-    text-align: center;
+    margin-left: 1vw;
+    text-align: left;
     align-items: center;
     justify-content: center;
     
 }
 a {
+  padding-left: 0.3vw;
     color: rgb(48, 58, 63);
     font-size: 1vw;
     text-decoration: none;
+    border-left: 0.15vw solid rgb(34, 32, 32);
     transition: 0.2s;
 
 }
@@ -75,21 +78,133 @@ DL DL DL DL DL    {
     width: 30vw;
     margin-top: 1vh;
     margin-bottom: 1vh;
-  border: 3px solid  #a32e74;
+  
 }
 DL DL DL DL DL DL   {
     width: 28vw;
-  border: 3px  solid #7c5f89;
+ 
 }
 DL DL DL DL DL DL DL  {
     width: 26vw;
-  border: 3px  solid #1e756e;
+ 
 }
 DL DL DL DL DL DL DL DL  {
     width: 24vw;
-  border: 3px  solid  #20b382;
+  
 }
 DL DL DL DL DL DL DL DL DL  {
     width: 22vw;
-  border: 3px  solid  #0bdd8d;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/*skdjskjdksjdkjsdkj */
+
+
+@media (max-width: 1050px) {
+  * { 
+    border: 0;
+    margin: 0;
+    font-family: system-ui;
+    
+    background-color: rgb(255, 237, 248);
+
+    
+}
+
+dl{
+    
+    margin-left: 1vw;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    
+}
+a {
+  padding-left: 0.3vw;
+    color: rgb(48, 58, 63);
+    font-size: 3vw;
+    text-decoration: none;
+    border-left: 0.15vw solid rgb(34, 32, 32);
+    transition: 0.2s;
+
+}
+
+h1{
+    font-size: 6vw;
+}
+
+
+
+
+DL DL DL DL > DT > H3 {
+  font-size: 5vw;
+  
+  color:  #a32e74;
+}
+DL DL DL DL DL  > DT > H3 {
+  font-size: 4.5vw;
+  color: #7c5f89;
+}
+DL DL DL DL DL DL  > DT > H3 {
+  font-size: 4vw;
+  color: #1e756e;
+}
+DL DL DL DL DL DL DL > DT > H3 {
+  font-size: 3.5vw;
+  color:  #20b382;
+
+}
+DL DL DL DL DL DL DL DL > DT > H3 {
+   font-size: 3.5vw;
+  color:  #0bdd8d;
+}
+
+DL DL DL DL DL  > DT  {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.oui{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+DL DL DL DL DL    {
+    
+    width: 30vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  
+}
+DL DL DL DL DL DL   {
+    width: 70vw;
+ 
+}
+DL DL DL DL DL DL DL  {
+    width: 70vw;
+ 
+}
+DL DL DL DL DL DL DL DL  {
+    width: 70vw;
+  
+}
+DL DL DL DL DL DL DL DL DL  {
+    width: 70vw;
+  
+}
+  
 }
